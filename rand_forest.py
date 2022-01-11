@@ -16,7 +16,6 @@ def main():
     test_target = labelsname_to_labelsnum(test_target)
 
     kernel = "linear"
-    #for kernel in ["linear", "poly", "rbf", "sigmoid"]:
     rand_forest_model = create_rand_forest(train_data, train_target)
     print("--- %s ---"%(kernel))
     print(rand_forest_model)
