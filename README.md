@@ -8,6 +8,7 @@
 * Linear Discriminant Analysis
 * Random Forest
 ## Directory structure
+```
 .
 ├── final report - 1
 │   ├── final_report-1.pdf
@@ -21,3 +22,4 @@
 ├── read_dataset.py
 ├── README.md
 └── svm_model.py
+```
