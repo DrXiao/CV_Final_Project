@@ -15,9 +15,9 @@ def main():
     test_data, test_target = split_data_target(test_dataset)
     test_target = labelsname_to_labelsnum(test_target)
 
-    kernel = "linear"
+    # kernel = "linear"
     rand_forest_model = create_rand_forest(train_data, train_target)
-    print("--- %s ---"%(kernel))
+    # print("--- %s ---"%(kernel))
     print(rand_forest_model)
     print(rand_forest_model.score(train_data, train_target))
     print(rand_forest_model.score(test_data, test_target))
